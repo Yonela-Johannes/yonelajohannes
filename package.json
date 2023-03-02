@@ -1,6 +1,7 @@
 {
   "name": "yonelajohannes",
   "version": "0.1.0",
+  "homepage": "https://yonela-johannes.github.io/yonelajohannes/",
   "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
