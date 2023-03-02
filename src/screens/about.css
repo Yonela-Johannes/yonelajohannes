@@ -1,0 +1,163 @@
+.about{
+  margin: 0 auto;
+  width: 700px;
+  padding: 50px;
+  padding-top: 150px;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.left {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+}
+.right {
+  flex: 2;
+}
+.about__subheading {
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+
+.about__subheading span {
+  background-color: var(--deep-dark);
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.about__title {
+  font-size: 24px;
+  margin-bottom: 5px;
+  width: 100%;
+  color: var(--p-cl-s);
+}
+.about__heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  margin-top: 5px;
+  color: var(--p-cl-alt);
+}
+.about__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+}
+.para {
+  max-width: 100%;
+}
+.right img {
+  border: 2px solid var(--p-cl);
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.about__info__heading {
+  font-size: 3.6rem;
+  text-transform: uppercase;
+}
+
+
+.about_info{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.items{
+  display: flex;
+  width: 100%;
+  width: 100%;
+}
+
+.item{
+  color: var(--body-bg);
+}
+
+.para{
+  margin: 10px auto;
+  font-size: 17px;
+  color: rgb(34, 34, 34);
+  line-height: 1.5em;
+}
+
+.para{
+  margin: 10px auto;
+  font-size: 17px;
+  color: rgb(34, 34, 34);
+  line-height: 1.5em;
+}
+
+.para-g{
+  margin: 10px auto;
+  font-size: 17px;
+  color: rgb(34, 34, 34);
+  line-height: 1.5em;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .mentors .mentors-container{
+    flex-direction: column;
+  }
+  .about{
+    padding: 5rem 40px;
+  }
+    .top-section {
+      flex-direction: column;
+      gap: 5rem;
+    }
+    .about__subheading {
+      font-size: 20px;
+    }
+    .about__heading {
+      font-size: 18px;
+      color: var(--p-cl);
+    }
+    .about__info__heading {
+      font-size: 3rem;
+    }
+  .about_info{
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .items {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+}
+
+.mentors .mentors-container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.about-inner-section{
+  text-align: left;
+  align-self: flex-start;
+  margin-bottom: 20px;
+}
+
+.sub.quote{
+  padding-right: 10px;
+  font-size: 18px;
+  color: var(--p-cl-s);
+}
+
+.me {
+  margin-top: 50px;
+}
